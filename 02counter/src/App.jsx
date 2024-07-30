@@ -8,22 +8,19 @@ function App() {
 
   const addvalue = () => {
     
-    if (count == 20) {
-      setCount(count)
-    }
-    else{
+    if (count < 20 && count >= 0) {
       setCount(count + 1)
     }
   }
 
   const removevalue = () => {
-    
-    if (count == 0) {
-      setCount(count)
-    }
-    else{
+    if (count > 0) {
       setCount(count - 1)
     }
+  }
+
+  const reset = () => {
+    setCount(0);
   }
 
   return (
@@ -41,10 +38,11 @@ function App() {
         <h2>Count is: {count}</h2>
         <button onClick = {addvalue}>
           Add value: {count}
-        </button><br />
+        </button><br /><br />
         <button onClick = {removevalue}>
           Remove Value: {count}
-          </button>
+          </button><br /><br />
+          <button onClick={reset}>Reset</button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
