@@ -12,8 +12,8 @@ function App() {
   const passwordGen = useCallback(() => {
     let pass = ""
     let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-    if (number) str += "0123456789"
-    if (char) str += "!@#$%^&*-+=[]{}~`" 
+    if (number) {str += "0123456789"}
+    if (char) {str += "!@#$%^&*-+=[]{}~`"} 
 
     for (let i = 1; i <= length; i++) {
       let create = Math.floor(Math.random() * str.length + 1)
