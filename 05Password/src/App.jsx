@@ -13,7 +13,7 @@ function App() {
     let pass = ""
     let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
     if (number) {str += "0123456789"}
-    if (char) {str += "!@#$%^&*-+=[]{}~`"} 
+    if (char) {str += "!@#$%^&*_+=[]{}~`"} 
 
     for (let i = 1; i <= length; i++) {
       let create = Math.floor(Math.random() * str.length + 1)
@@ -30,7 +30,7 @@ function App() {
 
   useEffect(() => {
     passwordGen()
-  }, [length, number, char,passwordGen])
+  }, [length, number, char, passwordGen])
 
   return (
     <>
@@ -73,7 +73,7 @@ function App() {
           defaultChecked = {char}
           id='charinput'
           onChange={() => {
-          setNumber((prev) => !prev);
+          setChar((prev) => !prev);
           }}/>
           <label htmlFor="charinput">Characters</label>
         </div>
