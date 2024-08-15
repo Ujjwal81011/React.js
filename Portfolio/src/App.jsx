@@ -1,8 +1,8 @@
 import './App.css'
 import About from './Components/About'
+import Education from './Components/Education'
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
-import Services from './Components/Services'
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Services />
+      <Education />
     </>
   )
 }
