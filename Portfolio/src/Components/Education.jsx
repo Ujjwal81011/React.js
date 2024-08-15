@@ -11,7 +11,7 @@ function Education() {
                 <h3 className='mt-2 text-xl space-x-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>Bachelor of Computer Application</h3>
                 <div className='mt-8 mb-8 mx-3'>
                   <p className='text-yellow-100'>
-                    Currently i am persuing Bachelor of Computer Applicaton from Maharana Pratap College of Professional Studies.
+                    Currently i am persuing Bachelor of Computer Applicaton from Maharana Pratap College of Professional Studies, Kanpur.
                   </p>
                   <p className='mt-8'>Batch: 2022 - 2025</p>
                 </div>
@@ -20,7 +20,7 @@ function Education() {
                 <h3 className='mt-2 text-xl space-x-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>Intermediate</h3>
                 <div className='mt-16 mb-8 mx-3'>
                   <p className='text-yellow-100'>
-                    I have done my Intermediate from Vijay Shankar Inter College (Harpalpur).
+                    I have done my Intermediate from UP Board Vijay Shankar Inter College, Harpalpur (Hardoi).
                   </p>
                   <p className='mt-12'>Batch: 2021-22</p>
                 </div>
@@ -29,7 +29,7 @@ function Education() {
                 <h3 className='mt-2 text-xl space-x-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>High School</h3>
                 <div className='mt-16 mb-8 mx-3'>
                   <p className='text-yellow-100'>
-                  I have done my Intermediate from Vijay Shankar Inter College (Harpalpur).
+                  I have done my High School from UP Board Vijay Shankar Inter College, Harpalpur (Hardoi).
                   </p>
                   <p className='mt-12'>Batch: 2019-20</p>
                 </div>
