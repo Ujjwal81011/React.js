@@ -1,5 +1,5 @@
 import React from 'react'
-import calculator from "../assets/calculator.jpg"
+import calculator from "../assets/calculator.jpeg"
 import password from "../assets/Password.jpeg" 
 
 function Project() {
@@ -22,14 +22,14 @@ function Project() {
               </span>
               
               <span className='bg-gray-800 rounded-lg px-6 pb-6 hover: shadow-lg transform transition-transform hover:scale-105 duration-300 m-3'>
-                <img src={password} alt="" className='rounded-lg' />
-                <h2 className='text-center font-bold text-2xl my-4 bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text'>Password Generator</h2>
+                <img src={password} alt="" className='align-middle' />
+                <h2 className='text-center font-bold text-2xl my-4 bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text'>Pass. Generator</h2>
                   <div className='px-4 my-3'>
                     <h3>Using Skills-</h3>
                     <p>HTML, CSS, JavaScript, React.js</p>
                   </div>
                   <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-5 py-2 mx-3 mt-3 rounded-full border-black'>
-                    <a href="https://github.com/Ujjwal81011/Minor-Project/blob/main/calculator.html" target='_blank'>Git Hub</a>
+                    <a href="https://github.com/Ujjwal81011/React.js/tree/main/05Password" target='_blank'>Git Hub</a>
                   </button>
               </span>
 
