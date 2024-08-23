@@ -1,10 +1,10 @@
 import React from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faEnvelope, faLocation, faMapMarked, faMapMarkedAlt, faPhone} from "@fortawesome/free-solid-svg-icons";
+import {faEnvelope, faMapMarkedAlt, faPhone} from "@fortawesome/free-solid-svg-icons";
 function Contact() {
   return (
     <>
-      <div className="bg-black text-white py-16">
+      <div className="bg-black text-white py-16" id="contact">
         <div className="container mx-auto px-8 md:px-16 lg:px-24">
           <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-yellow-400 to-pink-500 text-transparent bg-clip-text">Contact Me</h2>
           <div className="flex flex-col md:flex-row items-center md:space-x-12">

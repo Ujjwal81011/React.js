@@ -3,7 +3,7 @@ import React from 'react'
 function Education() {
   return (
     <>
-      <div className='bg-black text-white py-20 ' id='#education'>
+      <div className='bg-black text-white py-20 ' id='education'>
         <div className='container mx-auto px-8 md:px-16 lg:px-24'>
           <h2 className='text-4xl font-bold text-center mb-12 bg-gradient-to-r from-yellow-400 to-pink-500 text-transparent bg-clip-text'>My Education</h2>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>

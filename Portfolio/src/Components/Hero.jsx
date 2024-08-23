@@ -3,7 +3,7 @@ import Photo from '../assets/ujjwal.jpg'
 
 function Hero() {
   return (
-    <div className='bg-black text-white text-center py-16'>
+    <div className='bg-black text-white text-center py-16' id='home'>
         <img src={Photo} alt="" 
         className='mx-auto mb-8 w-48 h-48 rounded-full object-cover transform transition-transform duration-300 hover:scale-105'/>
         <h1 className='text-4xl font-bold'>
