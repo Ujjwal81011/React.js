@@ -18,7 +18,7 @@ function Hero() {
             <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>
             Contact with Me</button>
             <button className='bg-gradient-to-r from-pink-400 to-yellow-500 text-white md:inline ttransform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>
-              <a href="https://drive.google.com/file/d/1hj5ic68YtP0HkQpKi9IhL2oM-CzQ5WJU/view?usp=drive_link" target='_blank'>Resume</a>
+              <a href="https://drive.google.com/file/d/1jISV5c1mw0GgnVcR9MkwnNx20BaVyTNw/view?usp=drive_link" target='_blank'>Resume</a>
           </button>
         </div>
     </div>
