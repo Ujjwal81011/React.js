@@ -3,7 +3,18 @@ import React from 'react'
 function Navbar() {
   return (
     <>
-    <h1 className='text-yellow-500'>Hey what are you doing so on..</h1>
+      <nav className='bg-black text-white'>
+        <div>
+          <div className='text-2xl font-bold hidden md:inline'>Ujjwal Mishra</div>
+          <div>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+          </div>
+        </div>
+      </nav>
     </>
   )
 }
