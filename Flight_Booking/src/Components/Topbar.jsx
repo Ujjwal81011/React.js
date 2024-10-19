@@ -29,10 +29,11 @@ function Topbar() {
 
   const menuItems = [
     { name: "Home", to: "/" },
+    { name: "Features", to: "#" },
     { name: "About", to: "#" },
-    { name: "Offers", to: "#" },
-    { name: "Seats", to: "#" },
-    { name: "Destinations", to: "#" },
+    { name: "Plans", to: "#" },
+    { name: "Banner", to: "#" },
+    { name: "Blogs", to: "#" },
   ];
 
   return (
