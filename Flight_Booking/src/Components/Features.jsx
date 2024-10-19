@@ -16,23 +16,24 @@ export default function Features() {
             </p>
         </div>
 
-        <div className='flex flex-col md:flex-row w-full items-center justify-center gap-5 md:space-x-5'>
-            <div className='bg-sky-100 hover:bg-sky-200 py-5 px-12 flex flex-col items-center justify-center gap-5 rounded-[10px] transition-all duration-300 min-h-[300px]'>
-                <IoBedOutline className="text-5xl text-blue-500"/>
-                <h1 className='text font-bold text-center italic'>Hotels on the House</h1>
-                <p className='flex flex-row flex-wrap justify-center text-center'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est hic provident officia dolores tempore repudiandae praesentium ratione ad doloremque beatae?</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 w-full items-center justify-center">
+            <div className="bg-sky-100 hover:bg-sky-200 py-4 px-6 flex flex-col items-center justify-center gap-3 md:gap-5 rounded-[10px] transition-all duration-300 min-h-[300px] h-full">
+                <IoBedOutline className="text-4xl md:text-5xl text-blue-500" />
+                <h1 className="text-lg md:text-xl font-bold text-center italic">Hotels on the House</h1>
+                <p className="text-center text-sm md:text-base flex-grow">
+                Hotels on the House offers an enticing deal: book a flight and enjoy complimentary hotel stays, creating luxurious and memorable travel experiences without breaking the bank.</p>
             </div>
 
-            <div className='bg-sky-100 hover:bg-sky-200 py-5 px-12 flex flex-col items-center justify-center gap-5 rounded-[10px] transition-all duration-300 min-h-[300px]'>
-                <VscWorkspaceTrusted className='text-5xl text-blue-500'/>
-                <h1 className='text font-bold text-center italic'>Safe to Trust</h1>
-                <p className='flex flex-row flex-wrap justify-center text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi culpa nostrum nisi quae earum adipisci voluptatem dignissimos molestiae odit!</p>
+            <div className="bg-sky-100 hover:bg-sky-200 py-4 px-6 flex flex-col items-center justify-center gap-3 md:gap-5 rounded-[10px] transition-all duration-300 min-h-[300px] h-full">
+                <VscWorkspaceTrusted className="text-4xl md:text-5xl text-blue-500" />
+                <h1 className="text-lg md:text-xl font-bold text-center italic">Safe to Trust</h1>
+                <p className="text-center text-sm md:text-base flex-grow">Choosing reputable flight booking platforms guarantees a safe travel experience, with secure payment options, transparent policies, and dedicated customer support for peace of mind.</p>
             </div>
 
-            <div className='bg-sky-100 hover:bg-sky-200 py-5 px-12 flex flex-col items-center justify-center gap-5 rounded-[10px] transition-all duration-300 min-h-[300px]'>
-                <IoMdGlobe className='text-5xl text-blue-500'/>
-                <h1 className='text font-bold text-center italic'>World Customers</h1>
-                <p className='flex flex-row flex-wrap justify-center text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quam voluptas nam voluptatum quas quis neque repellat sed, quasi libero.</p>
+            <div className="bg-sky-100 hover:bg-sky-200 py-4 px-6 flex flex-col items-center justify-center gap-3 md:gap-5 rounded-[10px] transition-all duration-300 min-h-[300px] h-full">
+                <IoMdGlobe className="text-4xl md:text-5xl text-blue-500" />
+                <h1 className="text-lg md:text-xl font-bold text-center italic">World Customers</h1>
+                <p className="text-center text-sm md:text-base flex-grow">Worldwide customers flock to trusted flight booking platforms, enjoying seamless travel experiences, exclusive deals, and convenient options for unforgettable journeys around the globe.</p>
             </div>
         </div>
     </div>
