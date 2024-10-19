@@ -12,7 +12,7 @@ export default function Features() {
                 Our Priceless Features
             </span>
             <p className='text-center mt-2 max-w-[400px]'>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis molestiae, eius adipisci nam tenetur vel.
+                We provide good facilities to our consumers as per their needs, and never give a chance for complaint.
             </p>
         </div>
 
