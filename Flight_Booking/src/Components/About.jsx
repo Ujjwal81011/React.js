@@ -20,7 +20,7 @@ function About() {
 
         <div className='flex flex-col gap-3 mt-5'>
           <div className='flex items-center gap-3'>
-            <IoCheckmarkCircleOutline className='text-blue-400 lg:text-2xl md:text-xl text-4xl'/>
+            <IoCheckmarkCircleOutline className='text-blue-400 lg:text-2xl md:text-xl text-5xl'/>
             <span className='text-base lg:text-lg'>Best Price Guarantee: Enjoy competitive fares with no hidden fees.
             </span>
           </div>
@@ -28,7 +28,7 @@ function About() {
 
         <div className='flex flex-col gap-3 mt-5'>
           <div className='flex items-center gap-3'>
-            <IoCheckmarkCircleOutline className='text-blue-400 lg:text-2xl md:text-xl text-4xl'/>
+            <IoCheckmarkCircleOutline className='text-blue-400 lg:text-2xl md:text-xl text-5xl'/>
             <span className='text-base lg:text-lg'>24/7 Customer Support: We're here to assist you anytime, anywhere.
             </span>
           </div>
@@ -36,7 +36,7 @@ function About() {
 
         <div className='flex flex-col gap-3 mt-5'>
           <div className='flex items-center gap-3'>
-            <IoCheckmarkCircleOutline className='text-blue-400 lg:text-2xl md:text-xl text-4xl'/>
+            <IoCheckmarkCircleOutline className='text-blue-400 lg:text-2xl md:text-xl text-5xl'/>
             <span className='text-base lg:text-lg'>Exclusive Deals: Unlock special offers and discounts on every booking.
             </span>
           </div>
@@ -44,7 +44,7 @@ function About() {
 
         <div className='flex flex-col gap-3 mt-5'>
           <div className='flex items-center gap-3'>
-            <IoCheckmarkCircleOutline className='text-blue-400 lg:text-2xl md:text-xl text-4xl'/>
+            <IoCheckmarkCircleOutline className='text-blue-400 lg:text-2xl md:text-xl text-5xl'/>
             <span className='text-base lg:text-lg'>Easy Booking Process: Quick, seamless reservations with a user-friendly interface.</span>
           </div>
         </div>

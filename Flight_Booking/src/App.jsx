@@ -4,6 +4,7 @@ import Topbar from "./Components/Topbar";
 import Home from "./Components/Home";
 import Features from "./Components/Features";
 import About from "./Components/About";
+import Plans from "./Components/Plans";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <Features />
       <About />
+      <Plans />
     </>
   );
 }
