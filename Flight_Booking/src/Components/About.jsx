@@ -50,8 +50,8 @@ function About() {
           </div>
         </div>
 
-        <button className='bg-blue-500 rounded-full px-6 py-3 text-white font-semibold w-[200px] mt-12 shadow-md'>
-          Discover more
+        <button className='bg-blue-600 rounded-full px-6 py-3 text-white font-semibold w-[200px] mt-12 shadow-md hover:bg-blue-700'>
+          Discover More
         </button>
       </div>
     </div>
