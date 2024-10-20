@@ -45,7 +45,8 @@ function About() {
         <div className='flex flex-col gap-3 mt-5'>
           <div className='flex items-center gap-3'>
             <IoCheckmarkCircleOutline className='text-blue-400 lg:text-2xl md:text-xl text-5xl'/>
-            <span className='text-base lg:text-lg'>Easy Booking Process: Quick, seamless reservations with a user-friendly interface.</span>
+            <span className='text-base lg:text-lg'>Easy Booking Process: Quick, seamless reservations with a user-friendly interface.
+            </span>
           </div>
         </div>
 
