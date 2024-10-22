@@ -11,7 +11,7 @@ function Banner() {
             It's Time To Enjoy Your Freedom!
         </h1>
         {/* Increased margin-top for more space between heading and input */}
-        <div className='flex flex-col md:flex-row items-center gap-4 md:gap-6 mt-36'>
+        <div className='flex flex-col md:flex-row items-center gap-4 md:gap-6 lg:mt-36 mt-8'>
             <input
                 type="text"
                 placeholder='Email Address'
