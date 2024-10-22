@@ -6,6 +6,7 @@ import Features from "./Components/Features";
 import About from "./Components/About";
 import Plans from "./Components/Plans";
 import Banner from "./Components/Banner";
+import Blog from "./Components/Blog";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Plans />
       <Banner />
+      <Blog />
     </>
   );
 }
