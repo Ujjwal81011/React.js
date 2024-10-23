@@ -1,5 +1,5 @@
 import React from 'react'
-import image from "../assets/About.avif"
+import image from '../assets/Aero.avif';
 import { IoCheckmarkCircleOutline } from "react-icons/io5";
 
 function About() {
