@@ -28,7 +28,7 @@ function Topbar() {
   }, []);
 
   const menuItems = [
-    { name: "Home", to: "/" },
+    { name: "Home", to: "#" },
     { name: "Features", to: "#" },
     { name: "About", to: "#" },
     { name: "Plans", to: "#" },
@@ -89,7 +89,7 @@ function Topbar() {
       )}
 
       <button className="bg-zinc-800 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full mt-2 md:mt-0">
-        <Link to="#" target="_blank">
+        <Link to="#">
           Contact
         </Link>
       </button>
