@@ -80,11 +80,6 @@ function Topbar() {
               {item.name}
             </Link>
           ))}
-          <button className="bg-zinc-800 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full mt-2">
-            <Link to="#" target="_blank">
-              Contact
-            </Link>
-          </button>
         </div>
       )}
 
