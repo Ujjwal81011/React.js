@@ -8,6 +8,7 @@ import Plans from "./Components/Plans";
 import Banner from "./Components/Banner";
 import Blog from "./Components/Blog";
 import Footer from "./Components/Footer";
+import SignIn from "./Components/SignIn"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Plans />
       <Banner />
       <Blog />
+      <SignIn />
       <Footer />
     </>
   );

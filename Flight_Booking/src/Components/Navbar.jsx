@@ -13,7 +13,7 @@ function Navbar() {
           <li className='flex'> <AiOutlineGlobal className='mt-1 mx-2'/> Languages</li>
         </ul>
         <div className='flex'>
-          <button className='rounded-2xl w-14 hover:font-bold '>Sign In</button>
+          <button className='rounded-2xl w-14 hover:font-bold'>Sign In</button>
         </div>
       </div>
     </div>
