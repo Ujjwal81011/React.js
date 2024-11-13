@@ -7,6 +7,7 @@ import About from "./Components/About";
 import Plans from "./Components/Plans";
 import Banner from "./Components/Banner";
 import Blog from "./Components/Blog";
+import SignIn from "./Components/SignIn";
 import Footer from "./Components/Footer";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Plans />
       <Banner />
       <Blog />
+      <SignIn />
       <Footer />
     </>
   );
