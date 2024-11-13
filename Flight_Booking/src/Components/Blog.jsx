@@ -41,7 +41,7 @@ function Blog() {
       <h1 className='text-slate-700 text-xl font-bold mt-4'>USA</h1>
       <p className='text-slate-500 text-center mt-2 px-4'>Los Angeles International Airport (LAX) is a major U.S. gateway, providing world-class amenities, vast airline choices, and global connectivity.</p>
       <span className='text-blue-600 text-lg font-semibold mt-4'>Top Customers from USA</span>
-      <h1 className='text-slate-800 text-md mt-2 font-semibold'>Joe Biden</h1>
+      <h1 className='text-slate-800 text-md mt-2 font-semibold'>Donald Trump</h1>
     </div>
   </div>
 </div> 
