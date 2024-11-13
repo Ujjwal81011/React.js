@@ -33,7 +33,7 @@ function Plans() {
                 <h2 className='text-gray-500 text-md mt-1 px-4'>Charter B1732</h2>
                 <p className="text-gray-600 text-md mt-2 px-4 text-center">Book a private charter for personalized, luxurious travel. Enjoy flexible schedules, ultimate privacy, and total comfort.</p>
                 <h1 className='text-2xl font-bold mt-3'>
-                    <span className='bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text'>$270 </span>/Hour
+                    <span className='bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text'>$370 </span>/Hour
                 </h1>
                 <button className='bg-blue-600 text-white rounded-full px-6 py-2 mt-3 hover:bg-blue-700 flex items-center justify-center transition-colors duration-200'>
                     <FaPlane className='mt-1 text-2xl mx-2' />Book Now
@@ -75,7 +75,7 @@ function Plans() {
             <h2 className='text-gray-500 text-md mt-1 px-4'>Charter B1732</h2>
             <p className="text-gray-600 text-md mt-2 px-4 text-center">A private plane offers flexible travel, letting you fly on your schedule with complete privacy, comfort, and personalized service.</p>
             <h1 className='text-2xl font-bold mt-3'>
-                <span className='bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text'>$270 </span>/Hour
+                <span className='bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text'>$320 </span>/Hour
             </h1>
             <button className='bg-blue-600 text-white rounded-full px-6 py-2 mt-3 hover:bg-blue-700 flex items-center justify-center transition-colors duration-200'>
                 <FaPlane className='mt-1 text-2xl mx-2' />Book Now

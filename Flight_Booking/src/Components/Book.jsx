@@ -29,14 +29,15 @@ function Book() {
             id="destination"
             name="destination"
             className="w-full p-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            placeholder="select your destination"
         >
-            <option value="new-york">New York</option>
+            <option value="None">None</option>
             <option value="paris">Paris</option>
             <option value="tokyo">Tokyo</option>
             <option value="sydney">Sydney</option>
             <option value="goa">Goa</option>
             <option value="mumbai">Mumbai</option>
-            <option value="mumbai">Switzerland</option>
+            <option value="Switzerland">Switzerland</option>
         </select>
         <button className="w-full bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 transition-all">
             Proceed to Payment
