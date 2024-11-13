@@ -8,6 +8,7 @@ import Plans from "./Components/Plans";
 import Banner from "./Components/Banner";
 import Blog from "./Components/Blog";
 import SignIn from "./Components/SignIn";
+import Book from "./Components/Book";
 import Footer from "./Components/Footer";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Banner />
       <Blog />
       <SignIn />
+      <Book />
       <Footer />
     </>
   );
