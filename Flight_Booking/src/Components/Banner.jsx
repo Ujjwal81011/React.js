@@ -3,7 +3,7 @@ import image from "../assets/sky.jpg"
 
 function Banner() {
   return (
-    <div className='w-full md:h-[400px] h-[460px] my-15 bg-fixed bg-cover relative'>
+    <section className='w-full md:h-[400px] h-[460px] my-15 bg-fixed bg-cover relative'>
     <img src={image} alt="Sky" className="absolute w-full h-full object-cover" />
     <div className='absolute inset-0 bg-black bg-opacity-50 z-10'></div>
     <div className='relative z-20 w-full h-full flex flex-col items-center justify-center text-center p-5'>
@@ -22,7 +22,7 @@ function Banner() {
             </button>
         </div>
     </div>
-</div>
+</section>
 
   )
 }

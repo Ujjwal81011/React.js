@@ -5,7 +5,7 @@ import usa from "../assets/USA.jpg"
 
 function Blog() {
   return (
-<div className='flex flex-col w-full pb-20 md:px-32 px-8 gap-16 justify-center items-center mt-5'>
+<section className='flex flex-col w-full pb-20 md:px-32 px-8 gap-16 justify-center items-center mt-5'>
   {/* Blog Header Section */}
   <div className='flex flex-col w-full text-center items-center'>
     <span className='font-semibold text-blue-500 text-lg md:text-xl lg:text-2xl'>Our Blog</span>
@@ -44,7 +44,7 @@ function Blog() {
       <h1 className='text-slate-800 text-md mt-2 font-semibold'>Donald Trump</h1>
     </div>
   </div>
-</div> 
+</section> 
 
   )
 }

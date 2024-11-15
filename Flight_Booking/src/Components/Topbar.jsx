@@ -28,12 +28,11 @@ function Topbar() {
   }, []);
 
   const menuItems = [
-    { name: "Home", to: "#" },
-    { name: "Features", to: "#" },
-    { name: "About", to: "#" },
-    { name: "Plans", to: "#" },
-    { name: "Banner", to: "#" },
-    { name: "Blogs", to: "#" },
+    { name: "Home", to: "#home" },
+    { name: "Features", to: "#features" },
+    { name: "About", to: "#about" },
+    { name: "Plans", to: "#plans" },
+    { name: "Blogs", to: "#blogs" },
   ];
 
   return (
@@ -57,36 +56,36 @@ function Topbar() {
 
       <div className={`hidden md:flex md:flex-row md:space-x-6`}>
         {menuItems.map((item) => (
-          <Link
+          <a
             key={item.name}
-            to={item.to}
+            href={item.to}
             className="hover:text-red-500 py-2"
             onClick={handleLinkClick}
           >
             {item.name}
-          </Link>
+          </a>
         ))}
       </div>
 
       {menuOpen && (
         <div className="flex flex-col items-center bg-gradient-to-br from-white to-transparent z-50 absolute left-85 right-0 top-10 pr-10 w-[50%] justify-end rounded-lg py-4 border animate-bubble">
           {menuItems.map((item, index) => (
-            <Link
+            <a
               key={item.name}
-              to={item.to}
-              className={`hover:text-red-500 transition-all transform duration-300 ease-out delay-${index * 100} w-full text-center py-2 rounded-lg`}
+              href={item.to}
+              className={`hover:text-red-500 transition-all transform duration-300 ease-out delay-${
+                index * 100
+              } w-full text-center py-2 rounded-lg`}
               onClick={handleLinkClick}
             >
               {item.name}
-            </Link>
+            </a>
           ))}
         </div>
       )}
 
       <button className="bg-zinc-800 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full mt-2 md:mt-0">
-        <Link to="#">
-          Contact
-        </Link>
+        <Link to="/contact">Contact</Link>
       </button>
     </nav>
   );

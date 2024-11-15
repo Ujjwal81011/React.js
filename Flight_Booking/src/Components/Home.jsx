@@ -4,7 +4,7 @@ import image from "../assets/TakeOff.png";
 
 function Home() {
   return (
-    <div className="flex flex-col text-center pt-5 px-4 md:px-10 lg:px-20">
+    <section className="flex flex-col text-center pt-5 px-4 md:px-10 lg:px-20">
       <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-5">
         Create Ever-lasting Memories With Us
       </h1>
@@ -26,7 +26,7 @@ function Home() {
           className="absolute top-1/2 transform -translate-y-1/2 w-[70%] sm:w-[60%] lg:w-[50%]"
         />
       </div>
-    </div>
+    </section>
   );
 }
 export default Home;

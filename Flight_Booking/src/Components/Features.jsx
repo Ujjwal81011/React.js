@@ -5,7 +5,7 @@ import { IoMdGlobe } from "react-icons/io";
 
 export default function Features() {
   return (
-    <div className='flex w-full md:px-[200px] px-8 flex-col gap-16 justify-center items-center'>
+    <section className='flex w-full md:px-[200px] px-8 flex-col gap-16 justify-center items-center'>
         <div className='flex flex-col w-full items-center'>
             <span className='text font-semibold text-sky-800 mt-4'>Our Features</span>
             <span className='md:text-3xl text-2xl font-semibold mt-2'>
@@ -36,6 +36,6 @@ export default function Features() {
                 <p className="text-center text-sm md:text-base flex-grow">Worldwide customers flock to trusted flight booking platforms, enjoying seamless travel experiences, exclusive deals, and convenient options for unforgettable journeys around the globe.</p>
             </div>
         </div>
-    </div>
+    </section>
   )
 }

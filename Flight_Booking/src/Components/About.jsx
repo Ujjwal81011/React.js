@@ -4,7 +4,7 @@ import { IoCheckmarkCircleOutline } from "react-icons/io5";
 
 function About() {
   return (
-    <div className='w-full lg:px-[150px] md:px-[100px] px-8 flex lg:flex-row flex-col items-center justify-between py-10 lg:gap-20 md:gap-16 gap-10'>
+    <section className='w-full lg:px-[150px] md:px-[100px] px-8 flex lg:flex-row flex-col items-center justify-between py-10 lg:gap-20 md:gap-16 gap-10'>
       <div className='lg:w-[450px] lg:h-[450px] md:w-[400px] md:h-[400px] w-[270px] h-[270px] bg-no-repeat bg-cover'>
         <img src={image} alt="/" className='rounded-full'/>
       </div>
@@ -54,7 +54,7 @@ function About() {
           Discover More
         </button>
       </div>
-    </div>
+    </section>
   )
 }
 
