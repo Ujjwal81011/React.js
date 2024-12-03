@@ -16,7 +16,8 @@ function App() {
       <Route path='/' element={<Navigate to='/login'/>}></Route>
       <Route path='/login' element={<Login/>}></Route>
       <Route element ={<Procted/>}>
-        <Route path='/dashboard' element={<Dashboard/>}></Route>
+        <Route path='/dashboard' element={<Dashboard/>}>
+        </Route>
       </Route>
     </Routes>
     </BrowserRouter>
