@@ -17,7 +17,7 @@ function App() {
       <Route path='/login' element={<Login/>}></Route>
       <Route element ={<Procted/>}>
         <Route path='/dashboard' element={<Dashboard/>}>
-        </Route>
+      </Route>
       </Route>
     </Routes>
     </BrowserRouter>
