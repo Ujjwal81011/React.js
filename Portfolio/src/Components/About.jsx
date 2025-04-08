@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/ujjwal.jpg";
+import image from "../assets/mishra.jpg";
 
 function About() {
   return (
@@ -10,7 +10,7 @@ function About() {
           <img
             src={image}
             alt=""
-            className="w-72 h-80 rounded object-cover mb-8 md:mb-0 hover:scale-105 transform transition-transform duration-400"
+            className="w-72 h-90 rounded object-cover mb-8 md:mb-0 hover:scale-105 transform transition-transform duration-400"
           />
           <div className="flex-1">
             <p className="text-lg mb-8">
